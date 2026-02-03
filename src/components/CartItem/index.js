@@ -44,7 +44,7 @@ const CartItem = props => (
               >
                 <BsDashSquare color="#52606D" size={12} />
               </button>
-              <p className="cart-quantity">{quantity}</p>
+              <p className="cart-item-quantity">{quantity}</p>
               <button
                 type="button"
                 className="quantity-controller-button"
